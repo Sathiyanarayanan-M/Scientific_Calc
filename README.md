@@ -1,4 +1,4 @@
-#Scientific Calculator
+# Scientific Calculator
 
 ## This appplication is developed in python with Tkinter GUI
 
