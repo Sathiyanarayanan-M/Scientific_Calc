@@ -4,8 +4,9 @@
 
 ![Image Screenshot](/Screenshot.png)
 
-```
 ### You can do the following operations in this application:
+
+```
 
 Arithmatic Operations:
     -Addition
@@ -19,4 +20,5 @@ Scientific Mathematical Operations:
     -Exponential
     -pi
     -Logarithm
+
 ```
