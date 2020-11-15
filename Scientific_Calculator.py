@@ -17,12 +17,9 @@ def getvals(event):
         except:
             screen_var.set("Syntax error")
             screen.update()
-            # status_var.set("Preparing...")
-            # screen.update()
             time.sleep(1)
             screen_var.set("")
             screen.update()
-
     else:
         screen_var.set(f"{screen_var.get()}{value}")
 
@@ -30,22 +27,8 @@ def getvals(event):
 root = Tk()
 theme = ttk.Style()
 theme.theme_use("alt")
-# root.geometry(f"{canvas_width}x{canvas_height}")
-# root.maxsize(canvas_width, canvas_height)
-# root.minsize(canvas_width, canvas_height)
 root.title("Scientific Calculator ")
 root.call("wm", "iconphoto", root._w, PhotoImage(file="calculator.png"))
-
-"""
-my_menu = Menu(root)
-m1 = Menu(my_menu, tearoff=0, fg="red")
-m1.add_command(label="Terms of Use", command=term_of_use)
-m1.add_command(label="Send Feedback", command=send_feedback)
-root.config(menu=my_menu)
-my_menu.add_cascade(label=" About ", menu=m1)
-"""
-# my_menu.add_command(label='Exit',command=quit)
-
 
 screen_var = StringVar()
 screen = Entry(
